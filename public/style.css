@@ -1,0 +1,605 @@
+html {
+    scroll-behavior: smooth;
+}
+
+.container-full-bg {
+    width: 100vw;
+    height: 100vh;
+}
+
+p,
+.navbar,
+.lead,
+.card-title,
+.card-text,
+.btn,
+.draft_links,
+.scroll,
+label,
+.icon {
+    font-family: 'Open Sans',
+        sans-serif;
+}
+
+.icon {
+    color: black;
+}
+
+.card-title,
+.draft_links,
+.tech,
+label {
+    color: #5494CE;
+}
+
+.nav_link {
+    color: #123561;
+    font-weight: bold;
+}
+
+.links_container {
+    width: 77%;
+    margin-left: 11%;
+}
+
+.draft_links {
+    text-decoration: underline;
+}
+
+.btn {
+    margin-top: 5%;
+}
+
+.card:hover {
+    -webkit-box-shadow: -1px 9px 40px -12px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: -1px 9px 40px -12px rgba(0, 0, 0, 0.75);
+    box-shadow: -1px 9px 40px -12px rgba(0, 0, 0, 0.75);
+}
+
+.tech_container {
+    margin-top: 5%;
+}
+
+.star {
+    opacity: 0.75;
+}
+
+.scroll {
+    color: #5494CF;
+    font-family: 'Open Sans',
+        sans-serif;
+    font-weight: 300;
+}
+
+ul,
+li {
+    list-style-type: none;
+    font-family: 'Open Sans',
+        sans-serif;
+
+}
+
+ul {
+    font-size: 1.5em;
+    color: #47375B;
+}
+
+li {
+    font-size: 1.25em;
+    margin-left: 8%;
+    color: #17A2B8;
+}
+
+.next_item {
+    margin-top: 4%;
+}
+
+.subhead {
+    font-size: 1.15em;
+    color: #5494CF;
+    margin-left: 16%;
+    float: left;
+    padding: 0 .5em;
+}
+
+.subhead_title {
+    font-size: 1.15em;
+    color: #17A2B8;
+    font-style: italic;
+}
+
+.subhead2 {
+    font-size: 1.15em;
+    color: #5494CF;
+    margin-left: 13%;
+    float: left;
+    padding: 0 .5em;
+}
+
+.schools {
+    margin-left: 5%;
+}
+
+.city {
+    font-size: 1.15em;
+    margin-left: 42%;
+}
+
+.city2 {
+    font-size: 1.15em;
+    margin-left: 47%;
+}
+
+.city3 {
+    font-size: 1.15em;
+    margin-left: 61.5%;
+}
+
+.city4 {
+    font-size: 1.15em;
+    margin-left: 63%;
+}
+
+.description1 {
+    font-size: 1em;
+    color: black;
+    margin-left: 16%;
+    float: left;
+    padding: 7px .5em;
+    width: 80%;
+}
+
+.description3 {
+    font-size: 1em;
+    color: black;
+    margin-left: 13%;
+}
+
+.linkedin_container,
+.github_container,
+.icon {
+    display: inline-block;
+}
+
+.linkedin_container,
+.github_container {
+    margin-left: 28.5%;
+}
+
+/* media query for mobile device  */
+@media only screen and (max-width: 480px) {
+
+    .jumbotron,
+    #particles-js {
+        background: url("img/northern_lights.jpg") fixed center no-repeat;
+        background-size: cover;
+        height: 100vh;
+        color: black;
+        font-family: 'Archivo', sans-serif;
+        /* vh = viewport height */
+    }
+
+    h1 {
+        font-size: 3em;
+    }
+
+    .lead {
+        font-size: 1.25em;
+    }
+
+    .navbar {
+        font-size: 0.8em;
+    }
+
+    .header_box {
+        z-index: -1;
+        border-style: hidden;
+        border-color: white;
+        background-color: white;
+        opacity: 0.75;
+        margin-top: -126%;
+        margin-left: 8%;
+        width: 82%;
+    }
+
+    .titles {
+        margin-top: -8%;
+        margin-bottom: -5%;
+        font-size: 1.5em;
+    }
+
+    .titles {
+        color: #47375B;
+        font-size: 2em;
+        overflow: hidden;
+        text-align: center;
+    }
+
+    .titles>span {
+        position: relative;
+        display: inline-block;
+    }
+
+    .titles>span:before,
+    .titles>span:after {
+        content: '';
+        position: absolute;
+        top: 50%;
+        border-bottom: 2px solid #FDBB99;
+        width: 55%;
+        margin: 0 20px;
+        border-radius: 49%;
+    }
+
+    .titles>span:before {
+        right: 100%;
+    }
+
+    .titles>span:after {
+        left: 100%;
+    }
+
+    .me_container {
+        margin: 7%;
+    }
+
+    #me {
+        margin-top: 5%;
+        width: 10em;
+        height: auto;
+    }
+
+    .project_title>span:before,
+    .project_title>span:after {
+        content: '';
+        position: absolute;
+        top: 50%;
+        border-bottom: 2px solid #FDBB99;
+        width: 75%;
+        margin: 0 20px;
+        border-radius: 49%;
+    }
+
+    .projects_container {
+        width: 63%;
+        margin-left: 20%;
+    }
+
+    .card {
+        margin-left: -12%;
+        margin-top: 11%;
+    }
+
+    .scroll_container {
+        margin-left: 23%;
+    }
+
+    ul {
+        margin-left: -3%;
+    }
+
+    .work {
+        margin-left: 8%;
+    }
+
+    .description2 {
+        font-size: 1em;
+        color: black;
+        margin-left: 17.5%;
+        float: left;
+        padding: 7px .5em;
+    }
+
+    .contact_title>span:before,
+    .contact_title>span:after {
+        content: '';
+        position: absolute;
+        top: 50%;
+        border-bottom: 2px solid #FDBB99;
+        width: 41%;
+        margin: 0 20px;
+        border-radius: -8%;
+    }
+
+    form {
+        width: 75%;
+        margin-left: 13%;
+    }
+
+    textarea {
+        overflow: auto;
+        width: 100%;
+        height: 13em;
+        border: solid 1px #CED4DA;
+    }
+
+    .contact_btn {
+        margin-top: 1%;
+    }
+}
+
+/* media query for tablet */
+@media only screen and (min-width: 481px) {
+
+    .jumbotron,
+    #particles-js {
+        background: url("img/northern_lights.jpg") fixed center no-repeat;
+        background-size: cover;
+        height: 100vh;
+        color: black;
+        font-family: 'Archivo', sans-serif;
+        /* vh = viewport height */
+    }
+
+    h1 {
+        font-size: 4.25em;
+        margin-left: 1%;
+    }
+
+    .lead {
+        font-size: 2.25em;
+    }
+
+    .navbar {
+        font-size: 1.25em;
+    }
+
+    .header_box {
+        z-index: -1;
+        border-style: hidden;
+        border-color: white;
+        background-color: white;
+        opacity: 0.75;
+        margin-top: -96%;
+        margin-left: 20%;
+        width: 57%;
+    }
+
+    .titles {
+        color: #47375B;
+        font-size: 2em;
+        overflow: hidden;
+        text-align: center;
+    }
+
+    .titles>span {
+        position: relative;
+        display: inline-block;
+    }
+
+    .titles>span:before,
+    .titles>span:after {
+        content: '';
+        position: absolute;
+        top: 50%;
+        border-bottom: 2px solid #FDBB99;
+        width: 592px;
+        /* half of limiter */
+        margin: 0 20px;
+        border-radius: 50%;
+    }
+
+    .titles>span:before {
+        right: 100%;
+    }
+
+    .titles>span:after {
+        left: 100%;
+    }
+
+    .me_container,
+    .resume_container {
+        margin: 1% 12%;
+    }
+
+    #me {
+        width: 10em;
+        height: auto;
+    }
+
+    .projects_container {
+        width: 63%;
+        margin-left: 20%;
+    }
+
+    .scroll_container {
+        margin-left: 43%;
+        font-size: 1.25em;
+    }
+
+    .row {
+        margin-left: -8%;
+    }
+
+    .education_container {
+        margin-top: 13%;
+        margin-left: 13%;
+    }
+
+    .skills_container {
+        margin-top: 4%;
+        margin-left: 14%;
+    }
+
+    .description2 {
+        font-size: 1em;
+        color: black;
+        margin-left: -67.5%;
+        float: left;
+        padding: 7px .5em;
+    }
+
+    .work {
+        margin-left: 10%;
+    }
+
+    form {
+        width: 75%;
+        margin-left: 13%;
+    }
+
+    .contact_title>span:before,
+    .contact_title>span:after {
+        content: '';
+        position: absolute;
+        top: 50%;
+        border-bottom: 2px solid #FDBB99;
+        width: 294%;
+        margin: 0 20px;
+        border-radius: 53%;
+    }
+
+    textarea {
+        overflow: auto;
+        width: 100%;
+        height: 13em;
+        border: solid 1px #CED4DA;
+    }
+
+    .contact_btn {
+        margin-top: 1%;
+    }
+}
+
+/* media query for desktop  */
+@media only screen and (min-width: 900px) {
+
+    .jumbotron,
+    #particles-js {
+        background: url("img/northern_lights.jpg") fixed center no-repeat;
+        background-size: cover;
+        height: 100vh;
+        color: black;
+        font-family: 'Archivo', sans-serif;
+        /* vh = viewport height */
+    }
+
+    h1 {
+        font-size: 6em;
+    }
+
+    .lead {
+        font-size: 2.25em;
+    }
+
+    .navbar {
+        font-size: 1.25em;
+    }
+
+    .header_box {
+        z-index: -1;
+        border-style: hidden;
+        border-color: white;
+        background-color: white;
+        opacity: 0.75;
+        margin-top: -38%;
+        margin-left: 20%;
+        width: 57%;
+    }
+
+    .titles {
+        color: #47375B;
+        font-size: 2em;
+        overflow: hidden;
+        text-align: center;
+    }
+
+    .titles>span {
+        position: relative;
+        display: inline-block;
+    }
+
+    .titles>span:before,
+    .titles>span:after {
+        content: '';
+        position: absolute;
+        top: 50%;
+        border-bottom: 2px solid #FDBB99;
+        width: 592px;
+        /* half of limiter */
+        margin: 0 20px;
+        border-radius: 50%;
+    }
+
+    .titles>span:before {
+        right: 100%;
+    }
+
+    .titles>span:after {
+        left: 100%;
+    }
+
+    .me_container,
+    .resume_container,
+    .contact_container {
+        margin: 1% 12%;
+    }
+
+    #me {
+        width: 10em;
+        height: auto;
+    }
+
+    .work {
+        margin-left: 10%;
+    }
+
+    .projects_container {
+        width: 63%;
+        margin-left: 20%;
+    }
+
+    .scroll_container {
+        margin-left: 43%;
+        font-size: 1.25em;
+    }
+
+    .row {
+        margin-left: -8%;
+    }
+
+    .education_container {
+        margin-top: 13%;
+        margin-left: 13%;
+    }
+
+    .skills_container {
+        margin-top: 4%;
+        margin-left: 14%;
+    }
+
+    .description2 {
+        font-size: 1em;
+        color: black;
+        margin-left: -67.5%;
+        float: left;
+        padding: 7px .5em;
+    }
+
+    form {
+        width: 75%;
+        margin-left: 13%;
+    }
+
+    .contact_title>span:before,
+    .contact_title>span:after {
+        content: '';
+        position: absolute;
+        top: 50%;
+        border-bottom: 2px solid #FDBB99;
+        width: 294%;
+        margin: 0 20px;
+        border-radius: 53%;
+    }
+
+    textarea {
+        overflow: auto;
+        width: 100%;
+        height: 13em;
+        border: solid 1px #CED4DA;
+    }
+
+    .contact_btn {
+        margin-top: 1%;
+    }
+}
